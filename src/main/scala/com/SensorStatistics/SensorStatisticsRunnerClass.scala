@@ -24,7 +24,7 @@ class SensorStatisticsRunnerClass extends SensorStats{
       }
           fileList.size
   }
-        //code for number od measurements processed
+        //code for number of measurements processed
       def numOfProcessedMeasurements(dir: String): Int = {
         var conf = new SparkConf().setAppName("Read CSV Files From Directory mentioned").setMaster("local[*]")
         var sc = new SparkContext(conf)
