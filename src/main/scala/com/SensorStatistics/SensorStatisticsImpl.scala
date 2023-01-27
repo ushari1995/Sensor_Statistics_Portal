@@ -6,6 +6,7 @@ case class SensorMeasurement(sensorid: String, humidity: String)
 
     def main(args: Array[String]): Unit = {
 
+      //Reading the csv files from directory
       var directory = "D:\\Sensor_Statistics\\Sensor_Statistics_files"
 
       val sensorSpark = new SensorStatisticsRunnerClass()
