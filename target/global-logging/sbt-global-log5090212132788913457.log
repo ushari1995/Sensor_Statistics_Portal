@@ -1,0 +1,141 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\rishe\AppData\Local\Temp\idea2.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\rishe\AppData\Local\Temp\idea2.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_202)
+[debug]       Load.loadUnit: plugins took 100.3603ms
+[debug]       Load.loadUnit: defsScala took 0.4344ms
+[debug] [Loading] Scanning directory C:\Users\rishe\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\rishe\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 17.0875 ms
+[debug]           Load.resolveProject(global-plugins) took 44.0457ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\rishe\.sbt\1.0\plugins, plugins: List(<none>))) took 84.5856ms
+[debug] [Loading] Done in C:\Users\rishe\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 108.1623ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2298ms
+[debug]     Load.loadUnit(file:/C:/Users/rishe/.sbt/1.0/plugins/, ...) took 319.0428ms
+[debug]   Load.apply: load took 463.3357ms
+[debug]   Load.apply: resolveProjects took 5.8029ms
+[debug]   Load.apply: finalTransforms took 63.6352ms
+[debug]   Load.apply: config.delegates took 10.2717ms
+[debug]   Load.apply: Def.make(settings)... took 535.0103ms
+[debug]   Load.apply: structureIndex took 126.9849ms
+[debug]   Load.apply: mkStreams took 2.1754ms
+[info] loading global plugins from C:\Users\rishe\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2640.9187ms
+[debug]           Load.loadUnit: plugins took 21.5664ms
+[debug]           Load.loadUnit: defsScala took 0.0045ms
+[debug] [Loading] Scanning directory D:\Sensor_Statistics\SensorStatistics\project
+[debug]             Load.loadUnit: mkEval took 7.1041ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Sensor_Statistics\SensorStatistics\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.0604 ms
+[info] loading settings for project sensorstatistics-build from idea2.sbt ...
+[debug]               Load.resolveProject(sensorstatistics-build) took 4.9425ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sensorstatistics-build, base: D:\Sensor_Statistics\SensorStatistics\project, plugins: List(<none>))) took 7.5725ms
+[debug] [Loading] Done in D:\Sensor_Statistics\SensorStatistics\project, returning: (sensorstatistics-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 867.158ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.855ms
+[debug]         Load.loadUnit(file:/D:/Sensor_Statistics/SensorStatistics/project/, ...) took 893.4754ms
+[debug]       Load.apply: load took 894.8401ms
+[debug]       Load.apply: resolveProjects took 0.1298ms
+[debug]       Load.apply: finalTransforms took 8.5148ms
+[debug]       Load.apply: config.delegates took 0.4737ms
+[debug]       Load.apply: Def.make(settings)... took 122.0622ms
+[debug]       Load.apply: structureIndex took 35.3637ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from D:\Sensor_Statistics\SensorStatistics\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 2565.7675ms
+[debug]     Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory D:\Sensor_Statistics\SensorStatistics
+[debug]       Load.loadUnit: mkEval took 0.2093ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Sensor_Statistics\SensorStatistics, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.5265 ms
+[info] loading settings for project sensorstatistics from build.sbt ...
+[debug]         Load.resolveProject(sensorstatistics) took 37.2313ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id sensorstatistics, base: D:\Sensor_Statistics\SensorStatistics, plugins: List(<none>))) took 41.2537ms
+[debug] [Loading] Done in D:\Sensor_Statistics\SensorStatistics, returning: (sensorstatistics)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3404.7408ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.5951ms
+[debug]   Load.loadUnit(file:/D:/Sensor_Statistics/SensorStatistics/, ...) took 5979.9954ms
+[debug] Load.apply: load took 5981.5627ms
+[debug] Load.apply: resolveProjects took 0.1427ms
+[debug] Load.apply: finalTransforms took 34.3355ms
+[debug] Load.apply: config.delegates took 0.3788ms
+[error] java.lang.IllegalArgumentException: requirement failed: Revision cannot be empty.
+[error] 	at scala.Predef$.require(Predef.scala:281)
+[error] 	at sbt.internal.librarymanagement.StringUtilities$.nonEmpty(StringUtilities.scala:15)
+[error] 	at sbt.librarymanagement.DependencyBuilders$OrganizationArtifactName.$percent(DependencyBuilders.scala:53)
+[error] 	at $fddab4e30d83afb13cb7$.$anonfun$$sbtdef$1(D:\Sensor_Statistics\SensorStatistics\build.sbt:8)
+[error] 	at sbt.internal.util.EvaluateSettings.$anonfun$constant$1(INode.scala:211)
+[error] 	at sbt.internal.util.EvaluateSettings$MixedNode.evaluate0(INode.scala:228)
+[error] 	at sbt.internal.util.EvaluateSettings$INode.evaluate(INode.scala:170)
+[error] 	at sbt.internal.util.EvaluateSettings.$anonfun$submitEvaluate$1(INode.scala:87)
+[error] 	at sbt.internal.util.EvaluateSettings.sbt$internal$util$EvaluateSettings$$run0(INode.scala:99)
+[error] 	at sbt.internal.util.EvaluateSettings$$anon$3.run(INode.scala:94)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] java.lang.IllegalArgumentException: requirement failed: Revision cannot be empty.
+[error] Use 'last' for the full log.
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
